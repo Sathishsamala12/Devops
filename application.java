@@ -17,4 +17,17 @@ public class Main {
     else
       System.out.println(num + " is not a prime number.");
   }
+  #New changes for feature301 by dev1
+  public class Alphabet {
+
+    public static void main(String[] args) {
+
+        char c = '*';
+
+        if( (c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
+            System.out.println(c + " is an alphabet.");
+        else
+            System.out.println(c + " is not an alphabet.");
+    }
+}
 }
