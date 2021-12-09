@@ -5,7 +5,7 @@ public class Main {
     int num = 29;
     boolean flag = false;
     for (int i = 2; i <= num / 2; ++i) {
-      // condition for nonprime number
+      // condition for nonprime number  
       if (num % i == 0) {
         flag = true;
         break;
@@ -17,10 +17,13 @@ public class Main {
     else
       System.out.println(num + " is not a prime number.");
   }
+
 #new changes done by dev2
+  #New changes for feature301 by dev1
   public class Alphabet {
 
     public static void main(String[] args) {
+
 
         char c = 'A';
 
@@ -32,4 +35,14 @@ public class Main {
     }
 }
 
+}
+
+        char c = '*';
+
+        if( (c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
+            System.out.println(c + " is an alphabet.");
+        else
+            System.out.println(c + " is not an alphabet.");
+    }
+}
 }
