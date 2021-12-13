@@ -2,3 +2,5 @@ git
 git hub
 aws
 cloud computing
+maven
+azure
